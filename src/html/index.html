@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-contain">
+            <div class="header-left">
+                CONTACT US ON <a href="">0865-478-030</a> OR <a href="">nhd28102003@gmail.com</a>
+            </div>
+
+            <div class="header-right">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header-login">
+                    <a href=""><i class="fa-solid fa-pen"></i>REGISTER</a>
+                    <a href=""><i class="fa-solid fa-user"></i>LOGIN</a>
+                </div>
+                <div class="header-user">
+                    <a href="">YOUR CART: </a>
+                    <span class="count">0</span> ITEMS
+                    <span class="money">- $0.00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-contain">
+            <div class="nav-logo">
+                <div class="logo-img">
+                    <a href=""><img src="/img/logo.png" alt=""></a>
+                    <span>Books and media store</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="">HOME</a></li>
+                    <li class="nav-item"><a href="">Features</a></li>
+                    <li class="nav-item"><a href="">Courses</a></li>
+                    <li class="nav-item"><a href="">Blog</a></li>
+                    <li class="nav-item"><a href="">Shop</a></li>
+                    <li class="nav-item"><a href="">Contacts</a></li>
+                </ul>
+                <div class="nav-slider"></div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="slider">
+            <div class="slide-item active">
+              <div class="slider-left">
+                <span class="move-from-top">SUMMER READING</span>
+                <div class="slider-title move-from-top">
+                  <h2>The Books That Critics Say You <br> Should Read This Summer.</h2>
+                </div>
+                <div class="slider-desc fading">
+                  <p>Byron Kelly is a bestselling author, illustrator, and thinker. His books demonstrate a 'learn by doing approach', and are being used all over the world as a way of fostering non-traditional methods of exploration.</p>
+                </div>
+                <div class="buttons">
+                  <button class="btn"><span></span><p data-start="good luck!" data-text="start shopping now" data-title="get"></p></button>
+                </div>
+              </div>
+              <div class="slider-right">
+                <img src="/img/slider-2-1_book.png" alt="Sample Image" class="zoom-in myImage">
+              </div>
+            </div>
+            <div class="slide-item">
+              <div class="slider-left" style="text-align: left;">
+                <div class="slider-title move-from-top">
+                  <h2>Books Shelved As <br> Summer 2024.</h2>
+                </div>
+                <div class="slider-desc fading">
+                  <p>The Girl on the Train by Paula Hawkins, <br> Paper Towns by John Green, <br> All the Light We Cannot See by Anthony Doerr.</p>
+                </div>
+                <div class="buttons" style="position: absolute; top: 64%; left: 8.65%;">
+                  <button class="btn"><span></span><p data-start="good luck!" data-text="start shopping now" data-title="get"></p></button>
+                </div>
+              </div>
+              <div class="slider-right">
+                <img src="/img/slider-2-2_book.png" alt="Sample Image" class="zoom-in myImage">
+              </div>
+            </div>
+            <div class="slide-item">
+              <div class="slider-left" style="text-align: left;">
+                <div class="slider-title move-from-top">
+                  <h2>The Best Books Of <br> Summer 2024</h2>
+                </div>
+                <div class="slider-desc fading">
+                  <p>This summer brings a captivating collection <br> of must-read books that promise to entertain, <br> educate, and inspire.</p>
+                </div>
+                <div class="buttons" style="position: absolute; top: 64%; left: 8.65%;">
+                  <button class="btn"><span></span><p data-start="good luck!" data-text="start shopping now" data-title="get"></p></button>
+                </div>
+              </div>
+              <div class="slider-right">
+                <img src="/img/slider-2-3_book.png" alt="Sample Image" class="zoom-in myImage">
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button id="prevBtn"><i class="fa-solid fa-angle-left"></i></button>
+              <button id="nextBtn"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+    </section>
+    <!-- End Slide -->
+    <section>
+        <div class="deal-contain">
+          <div class="deal-item">
+            <div class="deal-item-left">
+              <h2>Today's Deals In Books</h2>
+              <p>The best books for your vacations and staycations.</p>
+              <button>READ MORE</button>
+            </div>
+            <div class="deal-item-right">
+              <img src="/img/promo-1.png" alt="">
+            </div>
+          </div>
+          <div class="deal-item">
+            <div class="deal-item-left">
+              <h2>The Best Books Of Summer 2024</h2>
+              <p>Chosen by Publishers Weekly editors.</p>
+              <button>READ MORE</button>
+            </div>
+            <div class="deal-item-right">
+              <img src="/img/promo-2.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Deals -->
+
+     <section>
+        <div id="bestsellers">
+          <div class="box"></div>
+          <h1>Books Bestsellers</h1>
+          <div class="bestsellers-nav">
+            <ul class="bestsellers-list">
+              <li class="mouseenter-active nav-li" style="margin: 0;"><a href="">ALL</a></li>
+              <li class="nav-li"><a href="">ARTS & PHOTOGRAPHY</a></li>
+              <li class="nav-li"><a href="">Biographies</a></li>
+              <li class="nav-li"><a href="">Children's Books</a></li>
+              <li class="nav-li"><a href="">Cookbooks</a></li>
+            </ul>
+            <!-- <div class="sort-container">
+              <button id="sort-none" class="sort-button">Sort by none</button>
+              <div id="sort-options" class="sort-options">
+                <button class="sort-button">Sort by title</button>
+                <button class="sort-button">Sort by Regular Price</button>
+                <button class="sort-button">Sort by Date</button>
+            </div> -->
+          </div>
+        </div>
+        <!-- End  bestsellers-->
+        <div id="product-container">
+          <div class="product-item">
+            <div class="product-img">
+              <div class="product-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <img src="/img/product-2.jpg" alt="">
+            </div>
+            <div class="product-detail">
+            <div class="product-title"><a href="">Garden Design and Landscaping</a></div>
+            <div class="author"><span>BY</span><a href="">Russell Reynolds</a></div>
+          </div>
+          </div>
+          <div class="product-item">
+            <div class="product-img">
+              <div class="product-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <img src="/img/product-3.jpg" alt="">
+            </div>
+            <div class="product-detail">
+            <div class="product-title"><a href="">How To Be An Explorer of The World</a></div>
+            <div class="author"><span>BY</span><a href="">Diane Washington</a></div>
+          </div>
+          </div>
+          <div class="product-item">
+            <div class="product-img">
+              <div class="product-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <img src="/img/product-4.jpg" alt="">
+            </div>
+            <div class="product-detail">
+            <div class="product-title"><a href="">The Designer’s Cookbook: 12 Colors</a></div>
+            <div class="author"><span>BY</span><a href="">Byron Kelly</a></div>
+          </div>
+          </div>
+          <div class="product-item">
+            <div class="product-img">
+              <div class="product-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <img src="/img/product-5.jpg" alt="">
+            </div>
+            <div class="product-detail">
+              <div class="product-title"><a href="">Everybody’s Fool: A novel</a></div>
+              <div class="author"><span>BY</span><a href="">Byron Kelly</a></div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-img">
+              <div class="product-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <img src="/img/product-6.jpg" alt="">
+            </div>
+            <div class="product-detail">
+            <div class="product-title"><a href="">Everyone Brave is Forgiven</a></div>
+            <div class="author"><span>BY</span><a href="">Stephanie Moreno</a></div>
+          </div>
+          </div>
+        </div>
+        <button id="btn">Star shopping now</button>
+     </section> <!--End Product  -->
+
+    <section>
+      <div id="learn">
+        <div class="learn-contain">
+          <div class="learn-content">
+            <div class="learn-title">
+              <h2>Learn From the Best</h2>
+              <p>The best books of all-time, best bellers, contemporary books organized by category based on many hours of reading and research. You can be sure that each one is fantastic, interesting and will be worth your time.</p>
+            </div>
+              <div class="learn-course">
+                <div class="learn-item">
+                  <div class="course-img">
+                    <img src="/img/product-3.jpg" alt="">
+                    <div class="icon-overlay">
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                  </div>
+                  <div class="course-title"><a href="">How To Be An Explorer of The World</a></div>
+                  <div class="course-author"><span>BY</span><a href="">Diane Washington</a></div>
+                </div>
+                <div class="learn-item">
+                  <div class="course-img">
+                    <img src="/img/product-8.jpg" alt="">
+                    <div class="icon-overlay">
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                  </div>
+                  <div class="course-title"><a href="">The Independent One: A Billionaire Bride Pact</a></div>
+                  <div class="course-author"><span>BY</span><a href="">Katherine Spencer</a></div>
+                </div>
+                <div class="learn-item">
+                  <div class="course-img">
+                    <img src="/img/product-11.jpg" alt="">
+                    <div class="icon-overlay">
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                  </div>
+                  <div class="course-title"><a href="">The Future of Architecture in 100 Buildings</a></div>
+                  <div class="course-author"><span>BY</span><a href="">Gwendolyn Baker</a></div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section>
+      <!-- End Learn -->
+    <section>
+      <div id="services">
+        <div class="service-contain">
+          <div class="service-item">
+            <div class="item-icon"><img src="/img/iconmonstr-book-13-240.png" alt=""></div>
+            <div class="item-title">
+              <h3>Select between a wide range of textbooks and media</h3>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="item-icon"><img src="/img/iconmonstr-shipping-box-4-240.png" alt=""></div>
+            <div class="item-title">
+              <h3>Enjoy free shipping and our delivery services</h3>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="item-icon"><img src="/img/iconmonstr-shopping-bag-5-240.png" alt=""></div>
+            <div class="item-title">
+              <h3>Get a nice discount on our top rated products</h3>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+    </section>
+<!-- End Service -->
+    <section>
+      <div id="blog">
+        <div class="blog-contain">
+          <div class="blog-title">
+            <h1>From Our Blog</h1>
+          </div>
+          
+          <div class="card-wrapper">
+            <div class="card-item">
+              <div class="card-img">
+                <a href="">
+                  <img src="/img/blog/blog1.png" alt="">
+                </a>
+              </div>
+              <div class="card-title">
+                <h4>Knowledge Management</h4>
+                <p>July 12, 2016</p>
+              </div>
+            </div>
+            
+            <div class="card-item">
+              <div class="card-img">
+                <a href="">
+                  <img src="/img/blog/blog2.png" alt="">
+                </a>
+              </div>
+              <div class="card-title">
+                <h4>Learning Development</h4>
+                <p>August 5, 2017</p>
+              </div>
+            </div>
+      
+            <div class="card-item">
+              <div class="card-img">
+                <a href="">
+                  <img src="/img/blog/blog3.png" alt="">
+                </a>
+              </div>
+              <div class="card-title">
+                <h4>Digital Innovation</h4>
+                <p>September 10, 2018</p>
+              </div>
+            </div>
+      
+            <div class="card-item">
+              <div class="card-img">
+                <a href="">
+                  <img src="/img/blog/bg-learn.jpg" alt="">
+                </a>
+              </div>
+              <div class="card-title">
+                <h4>Business Strategy</h4>
+                <p>October 22, 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+<!-- End blog -->
+    
+    <section>
+      <div id="advertisement">
+        <div class="advertisement-contain">
+          <div class="advertisement-text">
+            <div class="advertisement-title">
+              <h2>Don't Miss the Chance!Time for book shopping!</h2>
+            </div>
+            <div class="advertisement-content">
+              <p>We are beyond happy to announce a huge sale in our stores dedicated to a new school yearâ€™s beginning. Come and shop books and media with up to 90% off. Textbooks for all schools and colleges, music, movies, e-courses, e-books, magazines and so much more!</p>
+            </div>
+          </div>
+          <div class="advertisement-button">
+            <button class="button-left">PURCHASE</button>
+            <button class="button-right">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- End  Advertisement-->
+  <section>
+    <div id="product-display">
+      <div class="product-wrapper">
+        <div class="view-product">
+          <div class="recently-viewed">
+            <h2>Recently viewed</h2>
+            <div class="display-item">
+              <div class="item-img">
+                <img src="/img/product-5.jpg" alt="">
+              </div>
+              <div class="item-title">
+                <a href=""><h4>Everybody’s Fool: A novel</h4></a>
+                <div class="start-contain">
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                </div>
+                <div class="price"><span>$49.99</span>$23.99</div>
+              </div>
+            </div>
+            <div class="display-item">
+              <div class="item-img">
+                <img src="/img/product-11.jpg" alt="">
+              </div>
+              <div class="item-title">
+                <a href=""><h4>The Future of Architecture in 100 Buildings</h4></a>
+                <div class="start-contain">
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                </div>
+                <div class="price">$15.45</div>
+              </div>
+            </div>
+            <div class="display-item">
+              <div class="item-img">
+                <img src="/img/product-9-1-300x454.jpg" alt="">
+              </div>
+              <div class="item-title">
+                <a href=""><h4>Audio CD Set (4 disk set) for use with Jazz</h4></a>
+                <div class="start-contain">
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                </div>
+                <div class="price">$130.90</div>
+              </div>
+            </div>
+          </div>
+          <div class="top-rated">
+            <h2>Top Rated Products</h2>
+            <div class="display-item">
+              <div class="item-img">
+                <img src="/img/product-3-1-300x454.jpg" alt="">
+              </div>
+              <div class="item-title">
+                <a href=""><h4>Shattered Stripe Music Collection</h4></a>
+                <div class="start-contain">
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                </div>
+                <div class="price"><span>$59.99</span>$36.61</div>
+              </div>
+            </div>
+            <div class="display-item">
+              <div class="item-img">
+                <img src="/img/product-3.jpg" alt="">
+              </div>
+              <div class="item-title">
+                <a href=""><h4>How To Be An Explorer of The</h4></a>
+                <div class="start-contain">
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                </div>
+                <div class="price"><span>$32.24</span>$13.55</div>
+              </div>
+            </div>
+            <div class="display-item">
+              <div class="item-img">
+                <img src="/img/product-8.jpg" alt="">
+              </div>
+              <div class="item-title">
+                <a href=""><h4>The Independent One: A Billionaire</h4></a>
+                <div class="start-contain">
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                  <div class="star"></div>
+                </div>
+                <div class="price"><span>$45.99</span>$33.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="featured-product">
+          <h2>Featured Products</h2>
+          <div class="display-item">
+            <div class="item-img">
+              <img src="/img/product-1-1-300x454.jpg" alt="">
+            </div>
+            <div class="item-title">
+              <a href=""><h4>The Song Hits</h4></a>
+              <div class="start-contain">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+              </div>
+              <div class="price"><span>$36.00</span>$32.35</div>
+            </div>
+          </div>
+          <div class="display-item">
+            <div class="item-img">
+              <img src="/img/product-6.jpg" alt="">
+            </div>
+            <div class="item-title">
+              <a href=""><h4>Everyone Brave is Forgiven</h4></a>
+              <div class="start-contain">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+              </div>
+              <div class="price"><span>$30.46</span>$16.46</div>
+            </div>
+          </div>
+          <div class="display-item">
+            <div class="item-img">
+              <img src="/img/product-5.jpg" alt="">
+            </div>
+            <div class="item-title">
+              <a href=""><h4>Everybody’s Fool: A novel</h4></a>
+              <div class="start-contain">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+              </div>
+              <div class="price"><span>$49.99</span>$23.99</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End Full Product -->
+    </section>
+      <div id="footer">
+        <div class="footer-content">
+          <div class="footer-wrap">
+            <div class="footer-columns">
+              <div class="text-widget">
+                <div class="widget_title">  
+                  <h2>About the Store</h2>
+                </div>
+                <p>Chicago, IL 60606 <br> 
+                  123, New Lenox</p>
+                <p>PHONE: <a href="#">0865478030</a> <br> <a href="#">nhd28102003@gmail.com</a></p>  
+                <p>Open Hours: <br> MN – ST: 8:00AM – 9:00PM <br> SN: Closed</p>
+              </div>
+            </div>
+            <div class="footer-columns">
+              <div class="text-widget">
+                <div class="widget_title">  
+                  <h2>Popular</h2>
+                </div>
+                <button>VIEWS</button><button>COMMENTS</button><button>LIES</button>
+                <a href=""><p>100 Best Nonfiction Books of All Time</p></a>
+                <p>July 8, 2016</p> 
+                <a href=""><p>3 Key Tools to Manage & Grow Online Students</p></a>
+                <p>July 8, 2016</p> 
+              </div>
+            </div>
+            <div class="footer-columns">
+              <div class="text-widget">
+                <div class="widget_title">  
+                  <h2>Useful Links</h2>
+                </div>
+                <ul>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">All Courses</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Latest News</a></li>
+                  <li><a href="">Our Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-columns">
+              <div class="text-widget">
+                <div class="widget_title">  
+                  <h2>Newsletter</h2>
+                </div>
+                <p>Be the first to know about the latest news, sales and deals</p>
+                <div class="input-widget">
+                  <input type="email" placeholder="Email"><i class="fa-regular fa-envelope"></i>
+                </div>
+                <input type="checkbox"><span>I have read and agree to</span><a href="">  the terms & conditions</a>
+                <div class="social-media">
+                  <div class="card">
+                    <a class="socialContainer containerOne" href="#">
+                      <svg viewBox="0 0 16 16" class="socialSvg instagramSvg">
+                        <path
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                        ></path>
+                      </svg>
+                    </a>
+
+                    <a class="socialContainer containerTwo" href="#">
+                      <svg viewBox="0 0 16 16" class="socialSvg twitterSvg">
+                        <path
+                          d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                        ></path>
+                      </svg>
+                    </a>
+
+                    <a class="socialContainer containerThree" href="#">
+                      <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg">
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+
+                    <a class="socialContainer containerFour" href="#">
+                      <svg viewBox="0 0 16 16" class="socialSvg whatsappSvg">
+                        <path
+                          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="footer-inner">
+
+          </div>
+        </div>
+      </div>
+     </section>
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
